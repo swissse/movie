@@ -1,5 +1,4 @@
 .favorites {
-  padding: 2rem;
   width: 100%;
   box-sizing: border-box;
 }
@@ -48,4 +47,16 @@
 
 .movies-grid > * {
   animation: fadeIn 0.3s ease-out forwards;
+}
+
+@media screen and (max-width: 396px) {
+  .movies-grid {
+    padding: 1rem 0.3rem;
+  }
+}
+
+@media screen and (max-width: 396px) {
+  .main-content {
+    padding: 2rem 0.6rem;
+  }
 }
